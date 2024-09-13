@@ -1,0 +1,121 @@
+  /*phone_H*/
+  @media screen and (max-width: 1000px) 
+  {
+    div.re-size {
+      background-color: blue;
+      width: auto;
+      height: 100%;
+      margin: 1px;
+      padding: 4px;
+      }         
+  
+        /*playlist--------------------------*/
+
+        .text-block_header01 {
+          position: relative;
+          width: auto;
+          height: auto;
+          left: 10px;
+          
+          font-family: fantasy;
+          color: orange;
+          padding-top: 2px;
+          padding-bottom: 10px;
+        }
+
+            /*dropdown*/
+            /*grid container*/
+            .grid-container {
+              display: grid;
+              row-gap: 50px;
+              display: grid;
+            grid-template-areas: '01 02 03 04 05'
+                                 '06 07 08 09 10';
+              background-color: #2196F3;
+              padding: 10px;
+            }
+
+            .grid-item {
+              background-color: rgba(21, 224, 21, 0.8);
+              border: 1px solid rgba(122, 26, 212, 0.8);
+              padding: 20px;
+              font-size: 30px;
+              text-align: center;
+            }
+  
+              /*dropdown-----------------------------------------------*/
+              .dropbtn {
+                background-color:antiquewhite;
+                color: blue;
+                padding: 16px;
+                font-size: 16px;
+                border: none;
+                border-radius: 15%;
+              }
+              
+              .dropdown {
+                position: relative;
+                display: inline-block;
+                padding: 5mm;
+              }
+              
+              .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: yellow;
+                min-width: auto;
+                font-size: 4mm;
+                padding-left: 2.5mm;
+                padding-right: 2.5mm;
+                z-index: 1;
+                border-radius: 6%;
+              }
+  
+              .dropdown-content a {  
+                display: block;
+              }
+              /*hover*/
+              .dropdown-content a:hover {background-color: yellowgreen;}  
+              .dropdown:hover .dropdown-content {display: block;}  
+              .dropdown:hover .dropbtn {background-color: yellowgreen;}
+  
+                /*dropup-------------------------------------------------*/
+                  .dropbtn_02 {
+                  background-color:antiquewhite;
+                    color: blue;
+                    padding: 16px;
+                    font-size: 16px;
+                    border: none;
+                    border-radius: 15%;
+                      }
+                      
+                      .dropup {
+                      position: relative;
+                      display: inline-block;
+                      padding: 5mm;
+                      }
+                      
+                      .dropup-content {
+                        display: none;
+                        position: absolute;
+                        background-color: yellow;
+                        min-width: auto;
+                        font-size: 4mm;
+                        padding-left: 2.5mm;
+                        padding-right: 2.5mm;
+                        bottom: 106px;
+                        z-index: 1;
+                        border-radius: 6%;
+                      }
+                      
+                      .dropup-content a {          
+                        display: block;
+                      }
+                      
+                      .dropup-content a:hover {background-color: yellowgreen}        
+                      .dropup:hover .dropup-content {display: block;}        
+                      .dropup:hover .dropbtn_02 {background-color: yellowgreen;}
+                  
+  }
+ 
+/*-----------------------------------------------*/ 

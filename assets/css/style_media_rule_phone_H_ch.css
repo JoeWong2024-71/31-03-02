@@ -1,0 +1,43 @@
+  /*phone_H*/
+  @media screen and (max-width: 1000px) {
+    div.re-size {
+      background-color: blue;
+      width: auto;
+      height: 100%;
+      margin: 0px;
+      padding: 5px;
+      }
+
+    
+      .text-block_banner_01_ch {
+        position: relative;
+        font-family:Impact,;
+        width: auto;
+        height: 10mm;
+        top: -40vw;
+        left: 5vw;
+        color: rgb(0, 255, 229);
+        font-size: 5mm;      
+        }
+    
+        .text-block_banner_02_ch {
+            position: relative;
+            font-family:Impact,;
+            top: -42.5vw;
+            left: 8vw;
+            color: rgb(0, 255, 229);
+            font-size: 5mm;
+            }         
+            
+            .text-block_banner_03_ch {
+                position: relative;
+                font-family:Impact,;
+                top: -44vw;
+                left: 10vw;
+                color: rgb(0, 255, 229);
+                font-size: 6mm;
+                }
+    
+    
+    
+    }

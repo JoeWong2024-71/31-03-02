@@ -1,0 +1,194 @@
+  /*phone_H*/
+  @media screen and (max-width: 1000px) {
+    div.re-size {
+      background-color: blue;
+      width: auto;
+      height: 100%;
+      margin: 0px;
+      padding: 5px;
+      }
+
+      .text-block_banner_01_en {
+        position: relative;     
+        top: -41vw;
+        left: 5vw;
+        color: rgb(0, 255, 229);
+        font-size: 4mm;
+      }          
+    
+      .text-block_banner_02_en {
+        position: relative;
+        top: -42.5vw;
+        left: 8vw;
+        color: rgb(0, 255, 229);
+        font-size: 5mm;
+      }    
+  
+        .text-block_banner_03_en {
+          position: relative;
+          top: -44vw;
+          left: 10vw;
+          color: rgb(0, 255, 229);
+          font-size: 6mm;
+        }  
+
+        .text-block_select_language {
+          position: relative;
+          top: -34vw;
+          left: 10vw;                    
+          font-size: 5mm;  
+        } 
+
+        .text-block_english_button_en {
+          position: relative;
+          top: -35vw;
+          left: 20vw;                   
+          font-size: 5mm;  
+        }
+
+          .text-block_chinese_button_en {
+            position: relative;
+            top: -37vw;
+            left: 25vw;                   
+            font-size: 5mm;
+          } 
+
+          .text-block_goto_playlist {
+            position: relative;
+            top: -62vw;
+            left: 76vw;                    
+          }  
+
+/*-----------------------------------------------*/ 
+          /*spinner*/
+          .text-block_loader {
+            position: relative;
+            top: -55vw;
+            left: 74vw;     
+                           
+          } 
+
+          .loader {
+            border: 8px dotted yellowgreen;
+            border-radius: 50%;
+            border-top: 8px solid transparent;
+            width: 90px;
+            height: 90px;
+            -webkit-animation: spin 2s linear infinite;
+            
+            /* Safarri */
+            animation: spin 2s linear infinite;
+            }
+            @-webkit-keyframes spin {
+              0% { -webkit-transform: rotate(0deg);}
+              100% { -webkit-transform: rotate(360deg);}
+            }
+            @keyframes spin {
+              0% { -webkit-transform: rotate(0deg);}
+              100% { -webkit-transform: rotate(360deg);}
+            }
+
+/*-----------------------------------------------*/           
+          /*.text-block_goto_message {
+            position: relative;
+            top: -55vw;
+            left: 10vw;
+          }*/
+
+           /*-----------------------------------------------*/  
+                              /* Slideshow container */
+                              /*.slideshow-container-Text {
+                                width: auto;                              
+                                }*/
+                              
+                              /* Caption text */
+                              /*.text {                              
+                                font-size: 6mm;                 
+                                text-align:left;                                
+                                }                                
+                              
+                              .active {
+                                background-color: #378b49;
+                              }*/
+                              
+                              /* Fading animation */
+                              /*.fade {
+                                animation-name: fade;
+                                animation-duration: 1s;
+                              }
+                              
+                              @keyframes fade {
+                                from {opacity:0.5} 
+                                to {opacity:1}
+                              }*/
+
+                             
+  /*-----------------------------------------------*/  
+    /*Select Demo videa grid container*/
+    /*.text-block_demo_text {
+      position: relative;
+      font-size: 5mm;
+      color:rgb(127, 133, 255);
+      top: 0vw;
+      left: 0vw;
+              }
+  
+    .text-block_demo_number {
+      position: absolute;
+      width: 80mm;
+      height: auto;
+      top: -35vw;
+      left: 26vw;
+              }*/
+
+  /*Select Demo videa grid container*/                              
+  /*.text-block_demo_text {
+    position: relative;
+    top: -18vw;
+    left: 30vw;
+            }*/
+
+  /*-----------------------------------------------*/ 
+  /*.text-block_demo_number {
+    position: relative;
+    width: 80mm;
+    height: auto;
+    top: -22vw;
+    left: 30vw;
+            }
+
+        .item1 {grid-area: 01;} 
+        .item2 {grid-area: 02;} 
+        .item3 {grid-area: 03;} 
+        .item4 {grid-area: 04;} 
+        .item5 {grid-area: 05;} 
+        .item6 {grid-area: 06;} 
+        .item7 {grid-area: 07;} 
+        .item8 {grid-area: 08;} 
+        .item9 {grid-area: 09;} 
+        .item10 {grid-area: 10;}  
+
+        .grid-container {
+          
+            display: grid;
+            grid-template-areas: '01 02 03 04 05'
+                                 '06 07 08 09 10' ;
+            gap: 2px;
+            margin: 1px;
+            padding: 1px;
+            height: 9mm;
+        }
+
+        .grid-container > div {                
+            text-align: center;               
+            font-size: 4mm;                
+        }*/           
+       
+} 
+/*-----------------------------------------------*/ 
+
+
+
+
+
+
